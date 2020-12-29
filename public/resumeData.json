@@ -1,0 +1,172 @@
+{
+  "main": {
+    "name":"Robert (Roby) Culver",
+    "occupation":"DevOps & Cloud Engineer",
+    "description":"I am an Engineer with with 15 years experience in supporting technology of varying degrees.",
+    "image":"profilepic.jpg",
+    "bio":"I have an extensive experience with developing CI/CD pipelines in Jenkins, automating API connections with ",
+    "contactmessage":"If you would like to get in touch regarding a project, or simply want to talk football, contact me at the details below.",
+    "email": "roby@robyculver.com",
+    "phone": "+1(404)435-3248",
+    "address":{
+      "street":"4820 Village Square NW",
+      "city":"Acworth",
+      "state":"GA",
+      "zip": "30102"
+    },
+    "website": "http://www.robyculver.com",
+    "resumedownload":"http://robyculver.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/roby-professional-work/",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"DevOps and Cloud Engineer with extensive experience in managing CI/CD pipelines from check-in to deployment.",
+    "education":[
+      {
+        "school":"Georgia State University",
+        "degree":"Bachelor of Arts in Political Science",
+        "graduated":"April 2010",
+        "description":"Focused primarily on International Relations and Pre-Law.  Led many group projects to completion with exceptional grades. Developed my skills at written and spoken communication through oral presentations and writing theses"
+      },
+      {
+        "school":"Certification",
+        "degree":"Certified Jenkins Engineer",
+        "graduated":"August 2019"
+      }
+    ],
+    "work":[
+      {
+        "company":"PDI Software",
+        "title":"DevOps Engineer II",
+        "years":"January 2020 - Present",
+        "description":"All of the previous, plus: I served as a peer leader to fellow Engineers and interns, providing training where necissary and/or requested. Developed standardized CI/CD Pipelines across 6 or 7 product teams using shared pipeline libraries. Worked directly with 3 different development teams to create specific pipelines to support their development processes. Created automation through many application REST APIs that automated many manual repetative tasks. Created a Documentation as Code script so that CI/CD pipelines were automatically documented. Automated application deployments with Ansible playbooks. Migrated acquisitions to our standardized tool sets and build processes."
+      },
+      {
+        "company":"PDI Software",
+        "title":"DevOps Engineer I",
+        "years":"April 2019 - January 2020",
+        "description":"Stood up and supported a Rancher Kubernetes cluster to manage both on premesis and cloud Kubernetes clusters, including automating new cluster creation and monitoring through Prometheus & Grafana with the Rancher Terraform Provider. Created Configuration as Code based Jenkins master and build agent definition that would be shared across 12 or 13 different development teams through pipeline 'modules'.  "
+      },
+      {
+        "company":"InterContinental Exchange",
+        "title":"Senior Operations Analyst",
+        "years":"January 2017 - April 2019",
+        "description":"All of the responsibilities below plus:  Served as a peer leader to 10-12 Operations Analysts in a highly dynamic environment that required lots of technical knowledge. Automated complex and repetative tasks like application start of day checks, market data correction processing, and monitoring file deliveries to MFT and S3 services within SLAs. Setup and oversaw weekend Distaster Recovery environment testing for regulatory requirements.  Saved the organization approximately 1 million dollars over the next 5 years by driving an initiative to migrate our Market Data Storage and ETL processes off of a third party provider and brought these processes in-house to hardware we already have. Onboarded new aquisitions to ICE Operational Standards of Procedure."
+      },
+      {
+        "company":"InterContinental Exchange",
+        "title":"Operations Analyst",
+        "years":"July 2014 - January 2017",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"100%"
+      },
+      {
+        "name":"Jenkins",
+        "level":"100%"
+      },
+      {
+        "name":"Bash",
+        "level":"100%"
+      },
+      {
+        "name":"Docker",
+        "level":"95%"
+      },
+      {
+        "name":"Python",
+        "level":"95%"
+      },
+      {
+        "name":"Databases (SQL Server| PostGres | MySQL | No SQL)",
+        "level":"85%"
+      },
+      {
+        "name":"AWS EC2|ECS|RDS",
+        "level":"75%"
+      },
+      {
+        "name":"Kubernetes",
+        "level":"75%"
+      },
+      {
+        "name":"Terraform",
+        "level":"65%"
+      },
+      {
+        "name":"Ansible",
+        "level":"65%"
+      },
+      {
+        "name": "Others: SonarQube, Artifactory, Blackduck, Vault, Azure DevOps, Bitbucket, Jira, Confluence",
+        "level": "65%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Resume Website Source Code",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Build automation for this site",
+        "category":"Circle CI Build, and Test automation for this site.  Builds and Posts new Dockerfile on Docker Hub",
+        "image":"smirkspace.jpg",
+        "url":"http://www.circleci.com"
+      },
+      {
+        "title":"SonarQube scan for this Site",
+        "category":"Circle CI Build, and Test automation for this site.  Builds and Posts new Dockerfile on Docker Hub",
+        "image":"smirkspace.jpg",
+        "url":"http://www.circleci.com"
+      },
+      {
+        "title":"Docker Repository For This Site",
+        "category":"Circle CI Build, and Test automation for this site",
+        "image":"smirkspace.jpg",
+        "url":"http://hub.docker.com"
+      },
+      {
+        "title":"Terraform Cloud Plan that Deploys this to an ECS Instance",
+        "category":"Circle CI Build, and Test automation for this site",
+        "image":"smirkspace.jpg",
+        "url":"http://www.circleci.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
