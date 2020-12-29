@@ -1,4 +1,5 @@
 version: 2.1
+working_directory: ~/
 orbs:
   node: circleci/node@3.0.0
 workflows:
