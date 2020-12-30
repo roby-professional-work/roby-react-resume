@@ -1,11 +1,11 @@
 version: 2.1
 working_directory: ~/repo
 executors:
-  nodeBuilder:
+  nodebuilder:
     docker:
       - image: circleci/node:14
 jobs:
-  executor: nodeBuilder
+  executor: nodebuilder
   build:
     steps:
       - checkout
