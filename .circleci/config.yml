@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: circleci/node:14
 
-steps:
+    steps:
       - checkout
       
       - restore_cache:
