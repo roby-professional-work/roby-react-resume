@@ -4,23 +4,5 @@ jobs:
   build:
     docker:
       - image: circleci/node:14
-
     steps:
-      - checkout
-      
-      - restore_cache:
-        keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          - v1-dependencies-
-      
-      - run: npm build
-   
-      - save_cache:
-        paths:
-          - node_modules
-          - ~/.npm 
-          - ~/.cache
-
-        key: v1-dependencies-{{ checksum "package.json" }}
-    
-      - run: npm test
+      - run: npm install
