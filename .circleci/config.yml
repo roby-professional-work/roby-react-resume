@@ -1,19 +1,16 @@
 version: 2.1
 working_directory: ~/repo
+orbs:
+  docker:
+    - image: circleci/node:14
 jobs:
   build:
-    docker:
-      - image: circleci/node:14
     steps:
       - checkout
       - run: npm install
       - run: npm build
   test:
-    docker:
-      -image: circleci/node:14
     steps:
-      - checkout
-      - run: npm install
       - run: npm test
 
 
