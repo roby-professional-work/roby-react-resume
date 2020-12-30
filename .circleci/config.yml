@@ -5,13 +5,14 @@ executors:
     docker:
       - image: circleci/node:14
 jobs:
-  executor: nodebuilder
   build:
+    executor: nodebuilder
     steps:
       - checkout
       - run: npm install
       - run: npm build
   test:
+    executor: nodebuilder
     steps:
       - run: npm test
 
